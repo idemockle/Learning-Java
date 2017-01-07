@@ -11,12 +11,12 @@ public class digitcount {
         Integer idx;
 
         try {
-                data = new Scanner(new File("nums"));
+                data = new Scanner(new File("numsv"));
         } 
         catch ( IOException e) {
             System.out.println("Sorry but I was unable to open your data file");
             e.printStackTrace();
-            System.exit(0);
+            //System.exit(0);
         }
 
         count = new ArrayList<Integer>(10);
