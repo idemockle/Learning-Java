@@ -2,8 +2,8 @@
 
 public class booltest {
     public static void main (String[] args) {
-        String flub = "group";
-        String schlub = "group";
+        char flub = 'g';
+        char schlub = 'g';
         
         System.out.println(schlub == flub);
     }

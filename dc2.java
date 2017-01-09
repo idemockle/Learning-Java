@@ -9,7 +9,7 @@ public class dc2 {
         String line;
         
         try {
-            reader = Files.newBufferedReader(Paths.get("nums"), StandardCharsets.UTF_8);
+            reader = Files.newBufferedReader(Paths.get(args[0]), StandardCharsets.UTF_8);
             
             while ((line = reader.readLine()) != null) {
                 System.out.println(line);
